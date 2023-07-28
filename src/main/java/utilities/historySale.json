@@ -1,0 +1,22 @@
+{
+  "name" : "kishan",
+  "id" : "1",
+  "barcode" : "1111111,2222221,3333331",
+  "price" : "3045",
+  "quantity" : "3",
+  "dateOfPurchase" : "17-10-2021",
+  "timeOfPurchase" : "16:55:00",
+  "tableName" : "historySale",
+  "createColumns" : "name varchar(200) NOT NULL,id int NOT NULL,barcode varchar(100) NOT NULL,quantity varchar(50),price int,date varchar(100),time varchar(100),primary key(id)",
+  "insertColumns" : "name,id,barcode,quantity,price,date,time",
+  "values" : "'hima',4,'1111114:2222226','2',2500,'17-10-2021','18:10:10'",
+  "updateParameter" : "name",
+  "updateData" : "kishan kumar",
+  "updateByParameter" : "name",
+  "updateByParameterValue" : "kishan",
+  "deleteParameter" : "name",
+  "deleteValue" : "kishan",
+  "readByParameter" : "*",
+  "searchByParameter" : "table_schema",
+  "searchByParameterValue" : "public"
+}

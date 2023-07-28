@@ -1,0 +1,22 @@
+{
+  "name" : "Aashirvaad Atta",
+  "barcode" : "1111111",
+  "type" : "Atta",
+  "quantity" : "5KG",
+  "amount" : "1",
+  "price" : "170",
+  "company" : "ITC",
+  "tableName" : "purchase",
+  "createColumns" : "name varchar(200) NOT NULL,type varchar(200),barcode varchar(6) NOT NULL,quantity varchar(50),amount int,price int,company varchar(100),primary key(barcode)",
+  "insertColumns" : "name,type,barcode,quantity,amount,price,company",
+  "values" : "'Dhara','oil','111115','1Ltr',3,170,'Dhara'",
+  "updateParameter" : "name",
+  "updateData" : "Aashirvaad Chaki Atta",
+  "updateByParameter" : "barcode",
+  "updateByParameterValue" : "111111",
+  "deleteParameter" : "type",
+  "deleteValue" : "Atta",
+  "readByParameter" : "*",
+  "searchByParameter" : "table_schema",
+  "searchByParameterValue" : "public"
+}

@@ -1,0 +1,26 @@
+{
+  "checkTablePresentInDB" : {
+    "tableName": "information_schema.tables",
+    "readByParameter": "count(table_name)",
+    "searchByParameter": "table_schema",
+    "searchByParameterValue": "public"
+  },
+  "checkTableNameConvention": {
+    "tableName": "information_schema.tables",
+    "readByParameter": "table_name",
+    "searchByParameter": "table_schema",
+    "searchByParameterValue": "public"
+  },
+  "checkSizeOfColumn" : {
+    "tableName": "information_schema.columns",
+    "readByParameter": "column_name",
+    "searchByParameter": "table_name",
+    "searchByParameterValue": "product"
+  },
+  "checkDataTypeOfColumn" : {
+    "tableName": "information_schema.columns",
+    "readByParameter": "column_name, data_type",
+    "searchByParameter": "table_name",
+    "searchByParameterValue": "product"
+  }
+}

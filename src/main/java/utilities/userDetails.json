@@ -1,0 +1,20 @@
+{
+  "id" : "1",
+  "name" : "kishan",
+  "dob" : "05-08-2000",
+  "phone" : "1234567890",
+  "address" : "xyz",
+  "tableName" : "userDetails",
+  "createColumns" : "id int,name varchar(200) NOT NULL,dob varchar(200),phone varchar(20) NOT NULL,address varchar(200),primary key(id)",
+  "insertColumns" : "id,name,dob,phone,address",
+  "values" : "5,'sourabh','03/12/1998','1234567895','xyz'",
+  "updateParameter" : "name",
+  "updateData" : "kishan kumar",
+  "updateByParameter" : "name",
+  "updateByParameterValue" : "kishan",
+  "deleteParameter" : "name",
+  "deleteValue" : "kishan kumar",
+  "readByParameter" : "*",
+  "searchByParameter" : "table_schema",
+  "searchByParameterValue" : "public"
+}
